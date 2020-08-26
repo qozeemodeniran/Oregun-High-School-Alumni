@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, purple, gray);
+    color: #ffffff;
+    font-size: 150%;
+}
+
+nav#nav_butt button a {
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    background: gray;
+    border-radius: 4px;
+    padding: 5pxpx;
+    margin: 5px;
+}
+
+nav#nav_butt {
+    float: right;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* section#loginReg div {
+    display: inline-block;
+    clear: both;
+} */
+
+section#loginReg div img {
+    display: inline;
+}
+
+
+/* section#loginReg div p {
+    width: 40px;
+    float: right;
+} */
+
+section#loginReg div p button a {
+    text-decoration: none;
+}
+
+p#welcome {
+    font-size: 200%;
+    background-color: green;
+    width: 50%;
+}
+
+button#logout a {
+    color: red;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+nav#explore {
+    float: right;
+}
+
+nav#explore a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+section#canvas p {
+    padding: 5px;
+    margin: 5px;
+}
+
+button#comment a {
+    color: red;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+
+/* Responsivenes */
+
+@media only screen and (max-width:480px) {
+    /* For Mobile Devices */
+}
+
+@media only screen and (max-width:880px) {
+    /* For Tablet Devices */
+}

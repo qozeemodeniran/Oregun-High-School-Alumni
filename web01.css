@@ -1,0 +1,70 @@
+
+
+body{
+	background: linear-gradient(to right, purple, gray);
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+	margin: 10px;
+}
+/*header*/
+div#header h1 {
+	position: fixed;
+	background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+/*menu*/
+ul#menu {
+	position: fixed;
+	background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	
+}
+ul#menu li {
+	list-style-type: none;
+	display: inline;
+
+}
+ul#menu li a {
+	text-decoration: none;
+	color: white;
+	border: ;
+}
+/*User's option*/
+div#btn1 a {
+	text-decoration: none;
+	color: white;
+}
+div#btn1 button {
+	background-color: black;
+}
+div#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    	 	 
+}
+
+nav#walk ul {
+	list-style-type: none;
+	margin: 5px;
+	display: inline;
+}
+nav#walk ul li a{
+	color: white;
+	text-decoration: none;
+}
+p#abtsch {
+	word-wrap: break-word;
+}
+
+a:active{
+	color: green;
+}
